@@ -24,6 +24,15 @@ REGISTRY=${REGISTRY:-ORGANIZATION/mc}
 VCS_URL=${VCS_URL:-https://THE_REPO_URL}
 ```
 
+### ENV Vars
+
+```bash
+export MINIO_ALIAS=minio # this is the default value
+export MINIO_HOST_NAME=minio.example.com
+export MINIO_ACCESS_KEY=my-minio-access-key
+export MINIO_SECRET_KEY=my-super-sweet-secret
+```
+
 ## Optional Setup
 
 If you are into some tooling for keeping commit-messages clean and want to keep an automated CHANGELOG.md, feel free to `make init` ;).
