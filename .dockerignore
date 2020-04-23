@@ -1,0 +1,10 @@
+# Folders
+node_modules
+
+# Files
+.gitlab-ci.yml
+.versionrc
+*.md
+commitlint.config.js
+Makefile
+package*.json
